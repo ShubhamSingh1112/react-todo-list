@@ -42,6 +42,11 @@ body {
 .list li {
     display: flex;
     gap: 10px;
+    padding: 10px;
+    background-color: #0a07249d;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.25);
+    margin-bottom: 10px;
 }
 
 .list li .btn {
