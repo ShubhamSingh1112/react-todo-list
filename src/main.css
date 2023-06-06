@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #0a0724;
+    color: hsl(200, 100%, 90%);
+}
+
+.container {
+    max-width: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn {
+    background: hsl(200, 100%, 50%, 0.1);
+    border: 1px solid hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 50%);
+    padding: 0.25rem 0.5rem;
+}
+
+.list {
+    position: relative;
+}
+
+.list li {
+    display: flex;
+    gap: 10px;
+}
+
+.list li .btn {
+    background: transparent;
+    border: 1px solid hsl(357, 73%, 49%);
+    color: hsl(357, 73%, 49%);
+}
